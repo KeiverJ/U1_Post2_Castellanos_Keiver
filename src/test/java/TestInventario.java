@@ -19,8 +19,8 @@ class TestInventario {
     @Test
     @DisplayName("CB— R1: Agregar producto básico y consultar stock")
     void testAgregarProductoBasico() {
-        inv.agregarProducto("Laptop", 999.99, 10, "Electronica");
-        assertEquals(10, inv.consultarStock("Laptop"));
+        inv.agregarProducto("Lavadora", 999.99, 10, "Electronica");
+        assertEquals(10, inv.consultarStock("Lavadora"));
     }
 
     @Test
