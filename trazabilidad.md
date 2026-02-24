@@ -82,12 +82,12 @@
 
 ```mermaid
 flowchart TD
-    A[Enunciado del cliente (requerimientos R1–R7)]
-    B[Modelado formal (entradas / salidas / pre / postcondiciones)]
-    C[Supuestos del desarrollador (S1–S7)]
-    D[Casos borde identificados (CB01–CB20)]
-    E[Pruebas JUnit escritas ANTES del código (TestInventario.java)]
-    F[Implementación Java que satisface las pruebas (Producto.java + Inventario.java)]
+    A[Enunciado del cliente R1 al R7]
+    B[Modelado formal entradas salidas pre y postcondiciones]
+    C[Supuestos del desarrollador S1 al S7]
+    D[Casos borde identificados CB01 al CB20]
+    E[Pruebas JUnit escritas ANTES del codigo TestInventario.java]
+    F[Implementacion Java Producto.java e Inventario.java]
     A --> B --> C --> D --> E --> F
 ```
 
