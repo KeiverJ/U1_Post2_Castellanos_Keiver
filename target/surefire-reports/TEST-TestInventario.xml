@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestInventario" time="0.09" tests="32" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestInventario" time="0.096" tests="32" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,8 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="MX"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
-    <property name="sun.java.command" value="C:\Users\Keiver\AppData\Local\Temp\surefire11099435178601151135\surefirebooter-20260224154037820_3.jar C:\Users\Keiver\AppData\Local\Temp\surefire11099435178601151135 2026-02-24T15-40-37_695-jvmRun1 surefire-20260224154037820_1tmp surefire_0-20260224154037820_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Keiver\AppData\Local\Temp\surefire9991501495186000624\surefirebooter-20260224154828405_3.jar C:\Users\Keiver\AppData\Local\Temp\surefire9991501495186000624 2026-02-24T15-48-28_290-jvmRun1 surefire-20260224154828405_1tmp surefire_0-20260224154828405_2tmp"/>
     <property name="jdk.debug" value="release"/>
+    <property name="test" value="TestInventario"/>
     <property name="surefire.test.class.path" value="C:\Users\Keiver\Documents\GitHub\U1_Post2_Castellanos_Keiver\target\test-classes;C:\Users\Keiver\Documents\GitHub\U1_Post2_Castellanos_Keiver\target\classes;C:\Users\Keiver\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Keiver\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Keiver\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Keiver\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Keiver\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Keiver\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Keiver\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Keiver\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Keiver"/>
@@ -30,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Keiver\AppData\Local\Temp\surefire11099435178601151135\surefirebooter-20260224154037820_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Keiver\AppData\Local\Temp\surefire9991501495186000624\surefirebooter-20260224154828405_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.8+12-LTS-250"/>
@@ -58,36 +59,36 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="testAgregarDuplicadoOtraCategoria" classname="TestInventario" time="0.025"/>
+  <testcase name="testAgregarDuplicadoOtraCategoria" classname="TestInventario" time="0.026"/>
   <testcase name="testVenderProductoInexistente" classname="TestInventario" time="0.001"/>
   <testcase name="testValorTotalUnProducto" classname="TestInventario" time="0.002"/>
-  <testcase name="testAgregarNombreVacio" classname="TestInventario" time="0.001"/>
+  <testcase name="testAgregarNombreVacio" classname="TestInventario" time="0.002"/>
   <testcase name="testVenderCantidadNegativa" classname="TestInventario" time="0.001"/>
-  <testcase name="testDescuentoCategoriaInexistente" classname="TestInventario" time="0.001"/>
+  <testcase name="testDescuentoCategoriaInexistente" classname="TestInventario" time="0.002"/>
   <testcase name="testVenderReduceStock" classname="TestInventario" time="0.0"/>
   <testcase name="testAgregarPrecioCero" classname="TestInventario" time="0.001"/>
-  <testcase name="testValorTotalInventarioVacio" classname="TestInventario" time="0.0"/>
-  <testcase name="testVenderMasQueStock" classname="TestInventario" time="0.003"/>
-  <testcase name="testRestockCantidadCero" classname="TestInventario" time="0.001"/>
-  <testcase name="testStockBajoInventarioVacio" classname="TestInventario" time="0.002"/>
+  <testcase name="testValorTotalInventarioVacio" classname="TestInventario" time="0.001"/>
+  <testcase name="testVenderMasQueStock" classname="TestInventario" time="0.004"/>
+  <testcase name="testRestockCantidadCero" classname="TestInventario" time="0.0"/>
+  <testcase name="testStockBajoInventarioVacio" classname="TestInventario" time="0.0"/>
   <testcase name="testVenderTodoElStock" classname="TestInventario" time="0.001"/>
   <testcase name="testAgregarProductoDuplicado" classname="TestInventario" time="0.002"/>
-  <testcase name="testAgregarProductoBasico" classname="TestInventario" time="0.001"/>
+  <testcase name="testAgregarProductoBasico" classname="TestInventario" time="0.0"/>
   <testcase name="testDescuentoInvalidoMayor50" classname="TestInventario" time="0.003"/>
-  <testcase name="testVenderCantidadCero" classname="TestInventario" time="0.0"/>
-  <testcase name="testConsultarStockInexistente" classname="TestInventario" time="0.0"/>
+  <testcase name="testVenderCantidadCero" classname="TestInventario" time="0.001"/>
+  <testcase name="testConsultarStockInexistente" classname="TestInventario" time="0.001"/>
   <testcase name="testConsultarStockExistente" classname="TestInventario" time="0.0"/>
-  <testcase name="testDescuentoNegativo" classname="TestInventario" time="0.0"/>
-  <testcase name="testRestockAumentaStock" classname="TestInventario" time="0.0"/>
-  <testcase name="testAgregarCantidadCero" classname="TestInventario" time="0.0"/>
+  <testcase name="testDescuentoNegativo" classname="TestInventario" time="0.001"/>
+  <testcase name="testRestockAumentaStock" classname="TestInventario" time="0.001"/>
+  <testcase name="testAgregarCantidadCero" classname="TestInventario" time="0.001"/>
   <testcase name="testVenderUnaUnidad" classname="TestInventario" time="0.001"/>
   <testcase name="testDescuento50Porciento" classname="TestInventario" time="0.0"/>
-  <testcase name="testAgregarNombreNull" classname="TestInventario" time="0.001"/>
-  <testcase name="testDescuento0Porciento" classname="TestInventario" time="0.001"/>
+  <testcase name="testAgregarNombreNull" classname="TestInventario" time="0.0"/>
+  <testcase name="testDescuento0Porciento" classname="TestInventario" time="0.002"/>
   <testcase name="testValorTotalVarios" classname="TestInventario" time="0.001"/>
-  <testcase name="testRestockProductoInexistente" classname="TestInventario" time="0.0"/>
-  <testcase name="testAgregarPrecioNegativo" classname="TestInventario" time="0.0"/>
-  <testcase name="testStockExactoUmbralNoAparece" classname="TestInventario" time="0.001"/>
+  <testcase name="testRestockProductoInexistente" classname="TestInventario" time="0.001"/>
+  <testcase name="testAgregarPrecioNegativo" classname="TestInventario" time="0.001"/>
+  <testcase name="testStockExactoUmbralNoAparece" classname="TestInventario" time="0.0"/>
   <testcase name="testDescuentoSoloAfectaCategoria" classname="TestInventario" time="0.0"/>
-  <testcase name="testStockBajoRetornaCorrectos" classname="TestInventario" time="0.002"/>
+  <testcase name="testStockBajoRetornaCorrectos" classname="TestInventario" time="0.0"/>
 </testsuite>

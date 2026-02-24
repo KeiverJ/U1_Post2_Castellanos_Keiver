@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestInventario
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.090 s -- in TestInventario
+Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.096 s -- in TestInventario
